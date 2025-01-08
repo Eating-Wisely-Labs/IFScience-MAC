@@ -36,3 +36,6 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Running
+agent_workspace/

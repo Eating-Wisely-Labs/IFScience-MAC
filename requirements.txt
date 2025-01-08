@@ -1,5 +1,11 @@
 openai>=1.0.0
-aiohttp>=3.8.0
-requests>=2.25.0
+aiohttp
+requests
 python-dotenv>=0.19.0
-loguru>=0.5.3
+loguru
+swarms
+
+setuptools
+asyncio
+PyYAML
+termcolor

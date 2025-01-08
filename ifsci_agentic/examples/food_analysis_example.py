@@ -1,29 +1,3 @@
-# IFSci Agentic
-
-IFSci Agentic is a sophisticated Large Language Model (LLM) framework developed specifically for the IFSci Server. Built on the innovative [Swarms platform](https://github.com/kyegomez/swarms), it is designed to enhance and streamline the deployment of LLM agents. This framework provides a comprehensive interface that supports a variety of LLM operations, including direct model calls and on-the-fly fine-tuning.
-
-## Features
-
-- **Direct LLM API Calls**: Supports models like GPT-4, GPT-4V, etc.
-- **Fine-Tuning Support**: Customize models to meet specific needs.
-- **Swarms Integration**: Seamlessly integrate with Swarms services.
-- **Unified Interface**: Simplifies all LLM operations.
-
-
-## Configuration
-
-Create a `.env` file with your API keys:
-
-```env
-OPENAI_API_KEY=your_key_here
-```
-
-
-## Usage
-
-Here is an example of using IFSci Agentic for food analysis.
-
-```python
 """
 Example usage of the Swarms Service Module with a custom function.
 
@@ -82,18 +56,3 @@ async def main():
 # Run the main function as an asynchronous event loop
 if __name__ == "__main__":
     asyncio.run(main())
-```
-
-## Contributing
-
-To contribute to this project:
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/amazing-feature`).
-3. Commit your changes (`git commit -m 'Add some amazing feature'`).
-4. Push to the branch (`git push origin feature/amazing-feature`).
-5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
