@@ -21,7 +21,9 @@ wheels/
 *.egg
 
 # Environment
+# Environment variables
 .env
+.env.local
 .venv
 env/
 venv/

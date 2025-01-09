@@ -11,7 +11,7 @@ import asyncio
 
 # Import the module functions and classes from your Swarms service module
 # Adjust the import path as necessary
-from ifsci_agentic.services.swarms_service import get_food_reply
+from services.swarms_service import get_food_reply
 
 
 def prepare_comments(query_text: str, query_images: list) -> list:
