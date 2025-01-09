@@ -70,7 +70,7 @@ IFScience-MAC/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/IFScience-MAC.git
+git clone https://github.com/Eating-Wisely-Labs/IFScience-MAC.git
 cd IFScience-MAC
 ```
 
