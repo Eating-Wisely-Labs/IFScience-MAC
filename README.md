@@ -1,35 +1,45 @@
 # IFScience-MAC (Multi-Agent Control)
 
-A powerful multi-agent control system for vision-language models, supporting multiple model implementations, fine-tuning capabilities, and external data service integration.
+A sophisticated food recognition framework for Intermittent Fasting (IF), built on the innovative [Swarms platform](https://github.com/kyegomez/swarms). This framework provides a comprehensive multi-model, multi-agent system specifically designed for food analysis and dietary tracking in IF contexts. By leveraging Swarms' powerful agent orchestration capabilities, it enables accurate food identification, nutritional analysis, and dietary compliance verification.
 
 ## Features
 
-### 1. Multi-Model Support
-- **Supported Models**:
-  - GPT-4 Vision
-  - Claude Vision
-  - Gemini Vision
-- Factory pattern for easy model instantiation
-- Unified interface for all model implementations
+### 1. Swarms Integration
+- **Built on Swarms Platform**:
+  - Leverages Swarms' agent orchestration
+  - Inherits Swarms' parallel processing capabilities
+  - Utilizes Swarms' communication protocols
+  - Supports all Swarms-compatible models and tools
 
-### 2. Multi-Agent Control
-- Agent management system for coordinating multiple AI agents
+### 2. Food Recognition Models
+- **Multiple Vision Models**:
+  - GPT-4 Vision for detailed food analysis
+  - Claude Vision for nutritional assessment
+  - Gemini Vision for ingredient identification
+- Factory pattern for easy model instantiation
+- Unified interface for consistent food analysis
+
+### 3. Multi-Agent Control
+- Specialized agents for different aspects of food analysis:
+  - Recognition agents for visual identification
+  - Nutrition agents for dietary analysis
+  - Compliance agents for IF schedule tracking
 - Team-based task execution
-- Collaborative problem-solving capabilities
+- Collaborative food analysis
 - Configurable agent memory and iteration limits
 
-### 3. Fine-tuning Capabilities
-- Support for model fine-tuning with custom datasets
+### 4. Fine-tuning Capabilities
+- Custom model training for specific food types
 - LoRA (Low-Rank Adaptation) integration
 - Configurable training parameters
 - Model evaluation and metrics tracking
 - Support for 8-bit and 4-bit quantization
 
-### 4. Data Services
-- Modular data service architecture
-- Built-in caching mechanism
-- Support for multiple data sources
-- Training data preparation utilities
+### 5. Data Services
+- Food database integration
+- Nutritional information caching
+- Support for multiple dietary databases
+- Training data preparation for food recognition
 
 ## Project Structure
 ```
