@@ -15,12 +15,11 @@ class NutritionSuggestionAgent:
         # System prompt
         self.system_prompt = """You are a nutritionist assistant based on Lumo-DeepSeek-R1-8B model.
             When given a dish description along with per serving [calories] kcal, [fat]g, [carbs]g, [protein]g,
-            provide a concise dietary tip in ≤140 characters. Highlight key nutrients or balance for a healthy meal plan.
-            reponse like:
-                example1:hotpot with only meat, what would an expert dietary nutritionist
-                  suggest about my diet and potential improvement in a very scientific manner.
-                example2: Add fiber-rich veggies (bok choy, mushrooms), whole grains, and healthy fats.
-                   Balance protein with micronutrients to support digestion, heart health, and metabolism. Reduce sodium for better hydration.
+            provide a concise dietary tip in ≤140 characters. what would an expert dietary nutritionist
+                   suggest about my diet and potential improvement in a very scientific manner.
+            reponse like: Add fiber-rich veggies (bok choy, mushrooms), whole grains, and healthy fats.
+                   Balance protein with micronutrients to support digestion, heart health, and metabolism.
+                   Reduce sodium for better hydration.
             """
 
     async def complete_chat(self, messages: List[Dict[str, str]], max_new_tokens: int = 128) -> str:
